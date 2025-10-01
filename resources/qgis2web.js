@@ -9,7 +9,7 @@ var map = new ol.Map({
 });
 
 //initial view - epsg:3857 coordinates if not "Match project CRS"
-map.getView().fit([-33714.579623, 621265.136688, -22239.961755, 626683.405652], map.getSize());
+map.getView().fit([-38030.544692, 617592.595672, -17283.758559, 627342.451450], map.getSize());
 
 ////small screen definition
     var hasTouchScreen = map.getViewport().classList.contains('ol-touch');
